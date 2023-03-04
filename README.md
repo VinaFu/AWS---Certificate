@@ -22,6 +22,8 @@ Plural Course
 
 1. Cloud - same with Azure
 
+1.1 Concepts/ Computing models:
+
           On Premises: customer do all the things - include the infrastrauctures.
   
           IaaS provides access to resources such as virtual machines and virtual storage: Google compute engine
@@ -61,4 +63,77 @@ Plural Course
          [PaaS - extreme] - allocates the extract amount of application needs.
 
 
+1.2 Cloud Architecture Models/ Delpoy Model:
+
+          Private - resources exclusively owned, managed by single organization
+                Pros:
+                      scalability and efficiency
+                      security           
+                Cons:
+                      Maintenance
+                      Staffing
+          Public -- Azure, AWS, GCP - owned, managed by vendor alone
+                Pros:
+                      No purchase/maintenance of hardware and software
+                      only pays for the services that they consume/ pay-as-you-go
+                      Lcost-effective reliability
+                      scalability is unlimited
+                      high reliability - a vast network of servers ensures against failure
+                Cons:
+                      No control over features and version
+                      No physical access
+          Hybrid     
+                Pros:
+                      Avoid disruptions and outages
+                      Adhere to regulation, governance
+                      Span both public and private cloud
+                      Alleviate CapEx - pay for extra computing power only when needed
+                      scalibility
+                      flexibility
+                      control
+                      ease
+                Cons:
+                      Complex infrastructure
+          Community - collaborative effort between multiple organiaztions. Multiple organizations are working on joint projects
+                Pros:
+                Cons:
+
+1.3 Global Infrastructure
+
+        AWS Regions
+                
+                represents a cluster of data centers in a specific geographic location.
+                
+        AWS Availability Zones
+        
+                Consists of one or more data centers.
+                Multiple availability zones are included in each region.
+                Located in the geographic location of regions.(96)
+                Enable high-availability
+           
+        [Naming of Region and Availability Zones]
+                
+                us-east-2a
+                area-subarea-number
+                us-east-2       =       region
+                us-east-2a      =       availability zones
+        
+        AWS Local Zones
+        
+                Each is an extension of an AWS Region.
+                Place compute, storage, database, and other select AWS services closer to end-users. 
+             (AWS Wavelength Zones)
+                AWS infrastructure deployments that embed AWS compute and storage services within communications service providers’ (CSP) 5G networks.
+        
+        AWS Edge Locations - 边缘位置
+        
+                Designed to deliver services with the lowest latency possible. 
+                Serve content where it is closest to end users
+                CDN: Content Delivery Network
+                CloudFront, cache copies of the content that it serves, so the content is closer to users and can be delivered to them faster.缓存其所服务内容的副本，因此内容更接近用户并且可更快地交付
+                Route 53, which serves DNS responses from edge locations, so that DNS queries that originate nearby can resolve faster (and, contrary to what you might think, is also Amazon’s premier database).
+                为来自边缘位置的 DNS 响应提供服务，因此来自附近的 DNS 查询可以更快地解析（它也是亚马逊的首要数据库）
+                Web Application Firewall and AWS Shield, which filter traffic in edge locations to stop unwanted traffic as soon as possible. 过滤边缘位置的流量以尽快阻止不需要的流量。
+        
+        
 
