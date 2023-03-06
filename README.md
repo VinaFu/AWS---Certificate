@@ -167,8 +167,76 @@ Plural Course
         
 1.5 Supporting AWS Infrastructure
 
+        AWS [ Personal Health Dashboard ] provides alerts and remediation guidance when AWS is experiencing events that may impact you.” 
+        AWS [ Trusted Advisor ] is an automated tool for checking your AWS usage against best practices.
+         
+        AWS Trusted Advisor provides recommendations in the following five categories:
+                1. Cost Optimization
+                2. Performance
+                3. Security
+                4. Fault Tolerance
+                5. Service Limits
+                
+        Support Plan Tiers   
+                Support Plan     Email      Chat       Phone
+                
+                Basic            
+                Developer        YES
+                Business         YES        YES        YES
+                Enterprise       YES        YES        YES
 
-# 2. 
+        Support Plan Tiers   
+                Incident Type    Developer   Business  Enterprise
+                
+                Genaral 
+                Guidance           24h          24       24 
+                
+                System
+                Impaired                        12       12
+                
+                Production
+                System Impaired                  4        4
+                
+                Production
+                System Down                      1        1
+                 
+                Business Critical
+                System Down                             15 minutes
+       
+# 2. AWS Core Services
+
+        2.1 Interacting with AWS
+        
+                Console
+                CLI: Command Line Interface
+                SDK: Software Development Kit
+        
+        2.2 Compute Services -- IMPOERTANT
+        
+                2.2.1 Amazon EC2 = Amazon Elastic Compute Cloud
+                
+                        A web service that provides secure, resizable compute capacity in the cloud.Service that provides secure and resizable virtual servers
+                        Needs to know the [Instance Types] + [Root Device Type] + [Amazon Machine Image (AMI)] + [Purchase Option]
+                        [Instance Type]: processor, memory & storage type
+                        [Root Device] Instance Store & Elastic Block Store
+                        [AMI] 
+                        [Purchase Options] 
+                                On Demand - Pay by the second for the instance that ara launched
+                                Reserved - Purchase in advance for 1-3 year. A capacity reservation for the selected instance type.
+                                Savings Plan - Commit to a level of usage for EC2, Fargate, or Lambda for a 1 or 3 year period at a discount. Does not reserve capacity.
+                                Spot - leverage unused EC2 capacity in a region for a large discount.
+                                Dedicated - 
+                                
+                                
+                2.2.2 AWS Elastic Beanstalk
+                
+                        A Platform (PaaS) for scaling and deploying web apps and services across a specific list of technologies
+
+                2.2.3 AWS Lambda
+                
+        2.3 Content and Net work Delivery
+        
+        2.4 File Storage Services
 
 
 
