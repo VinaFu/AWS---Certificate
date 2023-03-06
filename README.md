@@ -129,11 +129,52 @@ Plural Course
         
                 Designed to deliver services with the lowest latency possible. 
                 Serve content where it is closest to end users
-                CDN: Content Delivery Network
+                [CDN: Content Delivery Network]
                 CloudFront, cache copies of the content that it serves, so the content is closer to users and can be delivered to them faster.缓存其所服务内容的副本，因此内容更接近用户并且可更快地交付
                 Route 53, which serves DNS responses from edge locations, so that DNS queries that originate nearby can resolve faster (and, contrary to what you might think, is also Amazon’s premier database).
                 为来自边缘位置的 DNS 响应提供服务，因此来自附近的 DNS 查询可以更快地解析（它也是亚马逊的首要数据库）
                 Web Application Firewall and AWS Shield, which filter traffic in edge locations to stop unwanted traffic as soon as possible. 过滤边缘位置的流量以尽快阻止不需要的流量。
         
+1.4 Cloud Economics
+
+        CapEx = Capitalized Expenditure
+               One-time expenditure to buy tangible/fixed assets, such as building the data center
+               needs upfront costs: buildings, servers, supporting equipment
+        OpEx  = Operational Expenditure 
+               Ongoing expenses incurred on services and products. 
+               Pay-as-you-go. How much you use.
+               No up-front investment
+               Capacity scales to meet user demand immediately              
+        TCO = Total Cost of Ownership 总拥有成本
         
+        AWS Cost Planning Tools
+                - AWS Pricing Calculator: in-depth analysis of the cost
+                - AWS Migration Hub: [transitioning] for Business Case 工作负载到云端提供建议
+        AWS Resource Tags
+                - Tags can be used in AWS Costs Explorer to see separate items
+                - Cost allocation report includes costs grouped by active tags.
+        AWS Organizations
+                Allows multiple accounts, billing
+        
+        Build a Business Case: tools = [ AWS Migration Hub ] && [ Migration Evaluator ]
+                - Analyze the current workloads
+                - Forecast infrastructure needs
+                - Create a TCO analysis of both options
+        AWS Pricing Calculator - like linode deployment
+        
+        [ AWS Costs Explorer ] = a user interface for reviewing AWS costs, forecasting future costs, and providing recommendations for cost optimization.
+        [ AWS Migration Hub ] + [ AWS Migration Evaluator ] = creating a business case to move to the cloud.
+        
+1.5 Supporting AWS Infrastructure
+
+
+
+
+
+
+
+
+
+                
+                
 
