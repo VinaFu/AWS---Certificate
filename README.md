@@ -20,7 +20,7 @@ Plural Course
 
 
 
-1. Cloud - same with Azure
+# 1. Cloud - same with Azure
 
 1.1 Concepts/ Computing models:
 
@@ -168,8 +168,7 @@ Plural Course
 1.5 Supporting AWS Infrastructure
 
 
-
-
+# 2. 
 
 
 
